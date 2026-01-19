@@ -6,6 +6,17 @@ The app instantly updates parking occupancy or status variables whenever the ser
 
 ---
 
+## 📖 Medium Article
+
+This repository is a companion to my Medium article:
+
+👉 **Sockets in Android: From WebSockets to Socket.IO**
+🔗 (https://medium.com/@supsabhi/sockets-in-android-from-websockets-to-socket-io-with-jetpack-compose-example-5773828ba05b)]
+
+
+The article explains the concepts step-by-step in a beginner-friendly way, while this repo focuses on **hands-on code examples**.
+
+---
 ## ✨ Features
 
 * **Live Updates**
