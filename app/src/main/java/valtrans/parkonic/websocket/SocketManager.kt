@@ -20,10 +20,10 @@ var var3: String=""
                 forceNew = true
             }
 
-            socket = IO.socket("https://socket-dev.parkonic.com", opts)
+            socket = IO.socket("https://your-socket-server.com", opts)
 
             socket?.on(Socket.EVENT_CONNECT) {
-                Log.d("sups","✅ Socket.IO Connected")
+                Log.d("sups","Socket.IO Connected")
             }
             // Listen for custom event (replace with your event name)
             socket?.on("digital_signage_5_1") { args ->
@@ -33,7 +33,7 @@ var var3: String=""
                      var2 = json.optString("var2")
                      var3 = json.optString("var3")
 
-                    Log.d("sups","📥 Got message: var1=$var1 var2=$var2 var3=$var3")
+                    Log.d("sups","Got message: var1=$var1 var2=$var2 var3=$var3")
                     Handler(Looper.getMainLooper()).post {
                         onMessage(ParkingMessage(var1, var2, var3))
                     }
