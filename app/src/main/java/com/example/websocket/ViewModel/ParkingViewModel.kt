@@ -1,11 +1,11 @@
-package valtrans.parkonic.websocket.ViewModel
+package com.example.websocket.ViewModel
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import valtrans.parkonic.websocket.SocketManager
-import valtrans.parkonic.websocket.data.model.ParkingMessage
+import com.example.websocket.SocketManager
+import com.example.websocket.data.model.ParkingMessage
 
 
 class ParkingViewModel : ViewModel() {

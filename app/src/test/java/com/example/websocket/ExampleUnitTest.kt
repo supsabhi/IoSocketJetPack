@@ -1,4 +1,4 @@
-package valtrans.parkonic.websocket
+package com.example.websocket
 
 import org.junit.Test
 

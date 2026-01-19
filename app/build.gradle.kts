@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-    namespace = "valtrans.parkonic.websocket"
+    namespace = "com.example.websocket"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "valtrans.parkonic.websocket"
+        applicationId = "com.example.websocket"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

@@ -1,4 +1,4 @@
-package valtrans.parkonic.websocket
+package com.example.websocket
 
 
 import android.os.Handler
@@ -7,7 +7,7 @@ import android.util.Log
 import io.socket.client.IO
 import io.socket.client.Socket
 import org.json.JSONObject
-import valtrans.parkonic.websocket.data.model.ParkingMessage
+import com.example.websocket.data.model.ParkingMessage
 
 class SocketManager {
     private var socket: Socket? = null

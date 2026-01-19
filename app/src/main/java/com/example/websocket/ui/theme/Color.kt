@@ -1,4 +1,4 @@
-package valtrans.parkonic.websocket.ui.theme
+package com.example.websocket.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

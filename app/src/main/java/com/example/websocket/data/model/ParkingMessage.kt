@@ -1,4 +1,4 @@
-package valtrans.parkonic.websocket.data.model
+package com.example.websocket.data.model
 
 import kotlinx.serialization.Serializable
 

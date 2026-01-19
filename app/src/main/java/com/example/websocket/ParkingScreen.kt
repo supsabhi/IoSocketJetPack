@@ -1,16 +1,11 @@
-package valtrans.parkonic.websocket
+package com.example.websocket
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.text.buildAnnotatedString
-import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.viewmodel.compose.viewModel
-import androidx.compose.ui.text.SpanStyle
-import androidx.compose.ui.text.font.FontWeight
-import valtrans.parkonic.websocket.ViewModel.ParkingViewModel
+import com.example.websocket.ViewModel.ParkingViewModel
 
 @Composable
 fun ParkingScreen(viewModel: ParkingViewModel = androidx.lifecycle.viewmodel.compose.viewModel()) {
